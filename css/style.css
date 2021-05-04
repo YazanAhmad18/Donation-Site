@@ -1,0 +1,88 @@
+body{
+
+    background-image: url(../images/donate-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+
+}
+
+
+
+#title{
+color: #eee;
+padding-top:20px;
+font-size: 30px;
+text-align: center;
+
+
+}
+
+#nav{
+
+    background-color: rgba(96, 96, 96,.8);
+    height: 80px;
+}
+
+#footer{
+
+    background-color: rgba(96, 96, 96,.8);
+    margin-top: 14.0%;
+    text-align: center;
+    color: #eee;
+    height: 40px;
+
+}
+#footer{
+
+    padding-top: 14px;
+}
+#fromsection{
+    width: 40%;
+background-color:rgba(96, 96, 96,.8) ;
+margin-top: 200px;
+height: 100px;
+margin-left: 50px;
+}
+
+#l1{
+        margin-left: 100px;
+        margin-top: 20px;
+
+    }
+    #l2{
+        margin-left: 100px;
+        margin-top: 10px;
+
+    }
+    #select1{
+
+        margin-left: 30px;
+        width: 177px;
+    }
+
+    #btn{
+        margin-left: 180px;
+        width: 182px;
+    }
+    #tableinfo{
+        background-color: rgba(96, 96, 96,.8) ;
+        margin-left: 220px;
+        margin-top: 200px;
+        width: 500px;
+        
+    }
+    
+    #collect{
+        display: flex;
+    }
+    
+    #table3 ,th ,td{
+        border: 2px solid black;
+        margin-left: 10%;
+        width: 400px;
+        margin-top: 20px;
+        text-align: center;
+
+    
+    }
