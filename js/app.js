@@ -15,6 +15,7 @@ function donores(username,age,amount) {
   this.age=age;
   this.amount = amount;
   this.render();
+  
 
   arrayOfObjects.push(this);
 }
@@ -32,6 +33,8 @@ function headtable() {
 }
 headtable();
 
+ 
+
 function getRandomInt(max,min){
     return  age=Math.floor(Math.random() * (max - min + 1)) + min;
 };
@@ -47,6 +50,7 @@ function donorinformation(event){
     let amount=event.target.amount.value;
     let newdonores=new donores(newname,age,amount);
     savetols();
+    
 }
 
 donores.prototype.render=function(){
@@ -65,9 +69,20 @@ donores.prototype.render=function(){
     let rowscontent1=document.createElement('td');
     rows1.appendChild(rowscontent1);
     rowscontent1.textContent=this.amount;
+
+    // let sum=0;
+    // for(let i=0;i<arrayOfObjects[i];i++){
+
+    //     sum=sum+arrayOfObjects[i].amount;
+    //     console.log(sum)
+    // }
     
 
+
 }
+
+
+
 
 
 function savetols(){
